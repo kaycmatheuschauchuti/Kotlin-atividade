@@ -1,0 +1,155 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Jogador 1 -->
+    <TextView
+        android:text="Jogador 1"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextPlayer1Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome do Jogador" />
+
+    <TextView
+        android:id="@+id/textViewPlayer1Level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Level: 1" />
+
+    <Button
+        android:id="@+id/buttonPlayer1IncreaseLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/buttonPlayer1DecreaseLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-" />
+
+    <TextView
+        android:id="@+id/textViewPlayer1Bonus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bônus de Equipamento: 0" />
+
+    <Button
+        android:id="@+id/buttonPlayer1IncreaseBonus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/buttonPlayer1DecreaseBonus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-" />
+
+    <TextView
+        android:id="@+id/textViewPlayer1Modifiers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modificadores: 0" />
+
+    <Button
+        android:id="@+id/buttonPlayer1IncreaseModifiers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/buttonPlayer1DecreaseModifiers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-" />
+
+    <TextView
+        android:id="@+id/textViewPlayer1Power"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Poder Total: 1" />
+
+    <!-- Repita para Jogador 2 a Jogador 6, mudando os IDs -->
+    <!-- Exemplo para Jogador 2 -->
+    <TextView
+        android:text="Jogador 2"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextPlayer2Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome do Jogador" />
+
+    <TextView
+        android:id="@+id/textViewPlayer2Level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Level: 1" />
+
+    <Button
+        android:id="@+id/buttonPlayer2IncreaseLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/buttonPlayer2DecreaseLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-" />
+
+    <TextView
+        android:id="@+id/textViewPlayer2Bonus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bônus de Equipamento: 0" />
+
+    <Button
+        android:id="@+id/buttonPlayer2IncreaseBonus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/buttonPlayer2DecreaseBonus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-" />
+
+    <TextView
+        android:id="@+id/textViewPlayer2Modifiers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modificadores: 0" />
+
+    <Button
+        android:id="@+id/buttonPlayer2IncreaseModifiers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/buttonPlayer2DecreaseModifiers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-" />
+
+    <TextView
+        android:id="@+id/textViewPlayer2Power"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Poder Total: 1" />
+
+    <!-- Continue para Jogadores 3, 4, 5 e 6 seguindo o mesmo padrão -->
+
+</LinearLayout>
